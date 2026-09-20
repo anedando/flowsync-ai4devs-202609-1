@@ -1,35 +1,36 @@
-# Prompts
+# Proyecto con Harness
+## Prompt 1 
 
-Aquí van **todos los prompts que lanzaste** para hacer el ejercicio, en el orden en que los
-lanzaste, con el modelo y la herramienta de cada uno.
-
-Esto no es papeleo. Lo que se revisa es **cómo pediste las cosas**, no solo lo que salió: un
-resultado flojo con un prompt bueno y un resultado flojo con un prompt vago necesitan feedback
-distinto, y sin este archivo no se distinguen.
-
-## Cómo rellenarlo
-
-- Un apartado `## Prompt N` por cada prompt.
-- **Pega el prompt tal cual lo lanzaste**, dentro del bloque de código, aunque ocupe diez líneas
-  y aunque tenga faltas. No lo reescribas para que quede bien: el que arreglaste mentalmente
-  después no es el que lanzaste.
-- Incluye también los que **no funcionaron**. Suelen ser los más útiles de leer.
-- `Modelo` y `Herramienta` en todos. Si cambiaste de una a otra a mitad, se nota aquí.
-
-Borra el ejemplo de abajo cuando escribas el primero.
-
----
-
-## Prompt 1
-
-**Modelo:** Opus 1M xHigh
+**Modelo:** Sonnet 5
 **Herramienta:** Claude Code
 
 ```
-Este es el ejemplo. Bórralo.
+fijate si hay tareas nuevas para realizar
 
-El prompt va aquí dentro, entero y con sus saltos de línea,
-para que se sepa dónde empieza y dónde acaba.
+
+
+
+##Proyecto sin harness
+## Prompt 1 
+
+**Modelo:** Sonnet 5
+**Herramienta:** Claude Code
+
+```
+necesito realices un analisis del siguiente requerimiento dentro de este proyecto:
+Cambia la pantalla principal de la aplicacion, dejando solo el mensaje de “bienvenida a Flowsync” con un formulario de inicio de sesion.  El inicio de sesion solo debe aceptar nombres de usuarios sin espacion ni caracteres 
+especiales. Solo se podran aceptar contraseñas robustas de por lo menos 6 posiciones, que incluyan un numero y algun caracter espacial.
 ```
 
-**Qué salió:** (opcional, una línea) funcionó a la primera / tuve que insistir / me inventó una ruta que no existe.
+**Qué salió:** No le puse contexto de stack tecnologico que estoy usando 
+
+## Prompt 2
+
+**Modelo:** Sonnet 5
+**Herramienta:** Claude Code
+
+```
+1-si, usemos el email como nombre de usuario, no agregues un campo username.  2-no, la regla solo aplica para el crear/cambiar contraseña. 3- si, todos esos menos el @ que se usa para el email. 4-queda fuera del alcance el flujo de
+  registro
+``
+      
