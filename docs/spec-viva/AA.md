@@ -327,11 +327,17 @@ El frontend SHALL mostrar los errores de campo bajo su input y los demás en una
 - **WHEN** la excepción no es un `ApiError`
 - **THEN** se muestra «Algo ha ido mal. Inténtalo de nuevo.»
 
-## Limitaciones observadas
 
-- No existe edición de perfil, cambio ni recuperación de contraseña, verificación de email ni eliminación de cuenta.
-- Los tokens emitidos no tienen caducidad configurada ni se limita su número por usuario.
-- El guard `web` (sesión) está configurado pero ninguna ruta lo usa.
-- No hay rate limiting en login ni en registro.
-- El token se guarda en `localStorage`.
-- No hay tests automatizados en backend ni en frontend.
+--------------------------
+Requirements escritos por el agente: 14      
+Comprobados: 3
+
+Incoherencias encontradas
+ 
+-Requirement: Formato uniforme de las respuestas: Ya esta considerado en los scenarios propios de login y de signup
+-Requirement: Reparto de errores en los formularios: ya estan considerados dentro de los los scenarios en los requeriments de  pantalla de registro y de pantalla de inicio de sesion
+
+ Lo que no supe definir si era un bug o el contrato
+
+-Requirement: Cliente de API y traducción de errores 
+
