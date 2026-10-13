@@ -16,3 +16,13 @@ Spec: `openspec/specs/tasks/spec.md` (capability `tasks`).
 - La suite solo contiene tests functional de `auth` (`signup`, `login`, `session`, `initials`). Ningún test crea ni consulta tareas, así que no hay ninguno que toque `assignee`.
 - Los tres tests de `initials.spec.ts` prueban el cálculo de iniciales de la cuenta vía `POST /api/v1/auth/login`; sirven de apoyo indirecto a las iniciales, pero no son un test del requisito.
 - No se ha modificado código ni tests: solo se ha evaluado la cobertura.
+
+
+
+------
+Mis 3 lineas 
+
+1- No habia scenarios para el Tasks, o sea creia que habia 0 cubiertos. Pero 1 el del "responsable se registro sin nombre" estaba.
+2-El del resposable sin nombre. puede sacar las iniciales de quien esta logueado, pero no de del Asignee
+3-si, la task "la tarea de la lista no incluye el email del responsable"
+
