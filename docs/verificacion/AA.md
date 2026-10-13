@@ -20,9 +20,10 @@ Spec: `openspec/specs/tasks/spec.md` (capability `tasks`).
 
 
 ------
-Mis 3 lineas 
 
-1- No habia scenarios para el Tasks, o sea creia que habia 0 cubiertos. Pero 1 el del "responsable se registro sin nombre" estaba.
+Mis 3 lineas: 
+
+1- No habia scenarios cubiertos para el Tasks, o sea 0 cubiertos. Pero 1 el del "responsable se registro sin nombre" ya estaba.
 2-El del resposable sin nombre. puede sacar las iniciales de quien esta logueado, pero no de del Asignee
 3-si, la task "la tarea de la lista no incluye el email del responsable"
 

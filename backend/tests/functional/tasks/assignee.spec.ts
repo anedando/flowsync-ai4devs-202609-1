@@ -5,7 +5,7 @@ import testUtils from '@adonisjs/core/services/test_utils'
 
 /**
  * Lo que cada tarea muestra de su responsable. Cubre los tres scenarios del
- * requisito «Lo que cada tarea muestra de su responsable» de
+ * requisito "Lo que cada tarea muestra de su responsable"  de
  * `openspec/specs/tasks/spec.md`: responsable identificable, la tarea que no
  * filtra datos de cuenta (suelta y en la lista) y el responsable sin nombre.
  */
